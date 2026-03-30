@@ -89,10 +89,10 @@ reports/
 projects/
 
 # Tool-specific
-.claude/settings.json
 .claude/settings.local.json
 .claude/todos/
 .claude/worktrees/
+.claude/scheduled_tasks.lock
 .playwright-mcp/
 .serena/
 .auto-claude/
