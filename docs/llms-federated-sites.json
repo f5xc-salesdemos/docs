@@ -1,0 +1,127 @@
+[
+  {
+    "label": "f5xc Docs Builder",
+    "url": "https://f5xc-salesdemos.github.io/docs-builder/llms.txt",
+    "description": "Containerized Astro + Starlight documentation build system"
+  },
+  {
+    "label": "XC Docs Theme",
+    "url": "https://f5xc-salesdemos.github.io/docs-theme/llms.txt",
+    "description": "Shared branding and styling for F5 Distributed Cloud documentation sites"
+  },
+  {
+    "label": "F5 XC Docs",
+    "url": "https://f5xc-salesdemos.github.io/docs/llms.txt",
+    "description": "Organization landing page for F5 Distributed Cloud documentation"
+  },
+  {
+    "label": "Administration",
+    "url": "https://f5xc-salesdemos.github.io/administration/llms.txt",
+    "description": "F5 XC administration and tenant management"
+  },
+  {
+    "label": "NGINX",
+    "url": "https://f5xc-salesdemos.github.io/nginx/llms.txt",
+    "description": "F5 XC NGINX integration and configuration"
+  },
+  {
+    "label": "Observability",
+    "url": "https://f5xc-salesdemos.github.io/observability/llms.txt",
+    "description": "F5 XC observability and monitoring"
+  },
+  {
+    "label": "Web App Scanning",
+    "url": "https://f5xc-salesdemos.github.io/was/llms.txt",
+    "description": "F5 XC web application scanning"
+  },
+  {
+    "label": "Multi-Cloud Networking",
+    "url": "https://f5xc-salesdemos.github.io/mcn/llms.txt",
+    "description": "F5 XC multi-cloud networking"
+  },
+  {
+    "label": "DNS",
+    "url": "https://f5xc-salesdemos.github.io/dns/llms.txt",
+    "description": "F5 XC DNS management"
+  },
+  {
+    "label": "CDN",
+    "url": "https://f5xc-salesdemos.github.io/cdn/llms.txt",
+    "description": "F5 XC content delivery network"
+  },
+  {
+    "label": "Bot Standard",
+    "url": "https://f5xc-salesdemos.github.io/bot-standard/llms.txt",
+    "description": "F5 XC standard bot defense"
+  },
+  {
+    "label": "Bot Advanced",
+    "url": "https://f5xc-salesdemos.github.io/bot-advanced/llms.txt",
+    "description": "F5 XC advanced bot defense"
+  },
+  {
+    "label": "DDoS",
+    "url": "https://f5xc-salesdemos.github.io/ddos/llms.txt",
+    "description": "F5 XC DDoS protection"
+  },
+  {
+    "label": "WAF",
+    "url": "https://f5xc-salesdemos.github.io/waf/llms.txt",
+    "description": "F5 XC web application firewall"
+  },
+  {
+    "label": "API Security",
+    "url": "https://f5xc-salesdemos.github.io/api-protection/llms.txt",
+    "description": "F5 XC API security"
+  },
+  {
+    "label": "API MCP",
+    "url": "https://f5xc-salesdemos.github.io/api-mcp/llms.txt",
+    "description": "MCP server for F5 Distributed Cloud API"
+  },
+  {
+    "label": "API Specs",
+    "url": "https://f5xc-salesdemos.github.io/api-specs/llms.txt",
+    "description": "OpenAPI spec validation and reconciliation for F5 Distributed Cloud"
+  },
+  {
+    "label": "API Specs Enriched",
+    "url": "https://f5xc-salesdemos.github.io/api-specs-enriched/llms.txt",
+    "description": "Enriched OpenAPI specifications for F5 Distributed Cloud"
+  },
+  {
+    "label": "Client-Side Defense",
+    "url": "https://f5xc-salesdemos.github.io/csd/llms.txt",
+    "description": "F5 XC client-side defense"
+  },
+  {
+    "label": "Docs Icons",
+    "url": "https://f5xc-salesdemos.github.io/docs-icons/llms.txt",
+    "description": "NPM icon packages and plugins for the F5 XC documentation build system"
+  },
+  {
+    "label": "Terraform Provider",
+    "url": "https://f5xc-salesdemos.github.io/terraform-provider-f5xc/llms.txt",
+    "description": "Terraform provider for F5 Distributed Cloud"
+  },
+  {
+    "label": "Dev Container",
+    "url": "https://f5xc-salesdemos.github.io/devcontainer/llms.txt",
+    "description": "Isolated development environment with AI coding tools"
+  },
+  {
+    "label": "Terraform Provider MCP",
+    "url": "https://f5xc-salesdemos.github.io/terraform-provider-mcp/llms.txt",
+    "description": "MCP server exposing Terraform provider schemas"
+  },
+  {
+    "label": "Marketplace",
+    "url": "https://f5xc-salesdemos.github.io/marketplace/llms.txt",
+    "description": "AI-powered marketplace for F5 Distributed Cloud solutions"
+  },
+  {
+    "label": "XCSh",
+    "url": "https://f5xc-salesdemos.github.io/xcsh/llms.txt",
+    "description": "AI-powered development environment and CLI tool"
+  }
+]
