@@ -1,0 +1,31 @@
+[
+  {
+    "id": "lab-infrastructure",
+    "label": "Lab Infrastructure",
+    "description": "Deployable Azure VM components for demo environments. Terraform-based, deterministic, pre-configured."
+  },
+  {
+    "id": "product-features",
+    "label": "Product Features",
+    "description": "F5 XC product capability documentation and demo guides."
+  },
+  {
+    "id": "api-specifications",
+    "label": "API Specifications",
+    "description": "OpenAPI specs and schema references."
+  },
+  {
+    "id": "developer-tools",
+    "label": "Developer Tools",
+    "description": "SDKs, providers, and agentic tooling."
+  },
+  {
+    "id": "build-platform",
+    "label": "Build and Platform",
+    "description": "Documentation build system and development infrastructure."
+  },
+  {
+    "id": "portal",
+    "label": "Documentation Portal"
+  }
+]
