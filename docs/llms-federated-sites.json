@@ -154,5 +154,11 @@
     "url": "https://f5xc-salesdemos.github.io/traffic-generator/llms.txt",
     "description": "Azure Ubuntu 24.04 VM with 50+ security tools and attack suites for F5 XC demo traffic generation",
     "category": "lab-infrastructure"
+  },
+  {
+    "label": "Demo Resources",
+    "url": "https://f5xc-salesdemos.github.io/demo-resources/llms.txt",
+    "description": "Catalog of pre-configured Azure VM components for F5 XC demo environments",
+    "category": "lab-infrastructure"
   }
 ]
