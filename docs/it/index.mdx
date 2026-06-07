@@ -1,0 +1,226 @@
+---
+title: Demo di Vendita F5 Distributed Cloud
+description: Guide demo e runbook per l'ingegneria delle vendite F5 Distributed Cloud.
+template: splash
+hero:
+  title: Sales Demos
+  tagline: Demo guides and runbooks for F5 Distributed Cloud sales engineering.
+  image:
+    html: >-
+      <img src="/docs/images/hero-platform.svg" alt="F5 Distributed Cloud
+      platform" />
+i18n:
+  sourceHash: 9502e0988fe3
+  translator: machine
+---
+
+import { CardGrid } from '@astrojs/starlight/components';
+import LinkCard from '@f5xc-salesdemos/docs-theme/components/LinkCard.astro';
+
+## Soluzioni di Sicurezza
+
+<CardGrid>
+  <LinkCard
+    icon="f5xc:web-app-and-api-protection"
+    title="WAF"
+    description="Configurazione del firewall per applicazioni web e criteri."
+    href="https://f5xc-salesdemos.github.io/waf/"
+  />
+  <LinkCard
+    icon="f5xc:web-app-and-api-protection"
+    title="API"
+    description="Scoperta delle API, protezione e criteri di sicurezza."
+    href="https://f5xc-salesdemos.github.io/api-protection/"
+  />
+  <LinkCard
+    icon="f5xc:bot-defense"
+    title="Bot Advanced"
+    description="Difesa bot avanzata con analisi comportamentale."
+    href="https://f5xc-salesdemos.github.io/bot-advanced/"
+  />
+  <LinkCard
+    icon="f5xc:bot-defense"
+    title="Bot Standard"
+    description="Difesa bot standard con rilevamento basato su firma."
+    href="https://f5xc-salesdemos.github.io/bot-standard/"
+  />
+  <LinkCard
+    icon="f5xc:client-side-defense"
+    title="CSD"
+    description="Difesa lato client per minacce basate su browser."
+    href="https://f5xc-salesdemos.github.io/csd/"
+  />
+  <LinkCard
+    icon="f5xc:ddos-and-transit-services"
+    title="DDoS"
+    description="Protezione da attacchi denial-of-service distribuiti."
+    href="https://f5xc-salesdemos.github.io/ddos/"
+  />
+  <LinkCard
+    icon="f5xc:web-app-scanning"
+    title="WAS"
+    description="Scansione delle applicazioni web e valutazione delle vulnerabilità."
+    href="https://f5xc-salesdemos.github.io/was/"
+  />
+</CardGrid>
+
+## Rete e Performance
+
+<CardGrid>
+  <LinkCard
+    icon="f5xc:multi-cloud-network-connect"
+    title="MCN"
+    description="Networking multi-cloud e connettività dei siti."
+    href="https://f5xc-salesdemos.github.io/mcn/"
+  />
+  <LinkCard
+    icon="f5xc:content-delivery-network"
+    title="CDN"
+    description="Rete di distribuzione dei contenuti e caching edge."
+    href="https://f5xc-salesdemos.github.io/cdn/"
+  />
+  <LinkCard
+    icon="f5xc:dns-management"
+    title="DNS"
+    description="Gestione DNS, zone e bilanciamento del carico."
+    href="https://f5xc-salesdemos.github.io/dns/"
+  />
+  <LinkCard
+    icon="f5xc:nginx-one"
+    title="NGINX"
+    description="Integrazione NGINX e gestione della configurazione."
+    href="https://f5xc-salesdemos.github.io/nginx/"
+  />
+</CardGrid>
+
+## Risorse Demo
+
+<CardGrid>
+  <LinkCard
+    icon="f5xc:distributed-apps"
+    title="Origin Server"
+    description="VM Ubuntu 24.04 con 9 applicazioni web vulnerabili per test WAF, API e difesa bot."
+    href="https://f5xc-salesdemos.github.io/origin-server/"
+  />
+  <LinkCard
+    icon="f5xc:application-traffic-insight"
+    title="Traffic Generator"
+    description="VM Azure con 50+ strumenti di sicurezza e 7 suite di attacchi per la generazione del traffico demo."
+    href="https://f5xc-salesdemos.github.io/traffic-generator/"
+  />
+  <LinkCard
+    icon="f5xc:content-delivery-network"
+    title="CDN Simulator"
+    description="Simulatore di nodo edge CDN basato su NGINX con 67+ header specifici del fornitore."
+    href="https://f5xc-salesdemos.github.io/cdn-simulator/"
+  />
+  <LinkCard
+    icon="f5xc:platform"
+    title="Visualizza Tutti i Componenti"
+    description="Sfoglia il catalogo completo delle risorse demo."
+    href="https://f5xc-salesdemos.github.io/demo-resources/"
+  />
+</CardGrid>
+
+## Operazioni
+
+<CardGrid>
+  <LinkCard
+    icon="f5xc:observability"
+    title="Observability"
+    description="Monitoraggio, metriche e application insights."
+    href="https://f5xc-salesdemos.github.io/observability/"
+  />
+  <LinkCard
+    icon="f5xc:administration"
+    title="Administration"
+    description="Gestione tenant, RBAC e impostazioni della piattaforma."
+    href="https://f5xc-salesdemos.github.io/administration/"
+  />
+</CardGrid>
+
+## Automazione
+
+<CardGrid>
+  <LinkCard
+    icon="hashicorp-flight:terraform-color"
+    title="Terraform Provider"
+    description="Provider Terraform per F5 Distributed Cloud."
+    href="https://f5xc-salesdemos.github.io/terraform-provider-f5xc/"
+  />
+  <LinkCard
+    icon="f5xc:data-intelligence"
+    title="API Specs"
+    description="Convalida delle specifiche OpenAPI e riconciliazione per F5 Distributed Cloud."
+    href="https://f5xc-salesdemos.github.io/api-specs/"
+  />
+  <LinkCard
+    icon="f5xc:data-intelligence"
+    title="API Specs Enriched"
+    description="Specifiche OpenAPI arricchite per F5 Distributed Cloud."
+    href="https://f5xc-salesdemos.github.io/api-specs-enriched/"
+  />
+</CardGrid>
+
+## Piattaforma e Strumenti
+
+<CardGrid>
+  <LinkCard
+    icon="f5xc:doc"
+    title="Builder"
+    description="Sistema di compilazione della documentazione containerizzato Astro + Starlight."
+    href="https://f5xc-salesdemos.github.io/docs-builder/"
+  />
+  <LinkCard
+    icon="f5xc:shared-configuration"
+    title="Theme"
+    description="Branding e stile condivisi per siti di documentazione."
+    href="https://f5xc-salesdemos.github.io/docs-theme/"
+  />
+  <LinkCard
+    icon="f5xc:distributed-apps"
+    title="Icons"
+    description="Pacchetti di icone NPM e plugin per il sistema di compilazione della documentazione."
+    href="https://f5xc-salesdemos.github.io/docs-icons/"
+  />
+  <LinkCard
+    icon="f5xc:shared-configuration"
+    title="Control"
+    description="Flussi CI, template di governance e applicazione delle impostazioni del repository."
+    href="https://f5xc-salesdemos.github.io/docs-control/"
+  />
+  <LinkCard
+    icon="hashicorp-flight:docker-color"
+    title="Dev Container"
+    description="Ambiente di sviluppo isolato con strumenti di codifica AI."
+    href="https://f5xc-salesdemos.github.io/devcontainer/"
+  />
+</CardGrid>
+
+## Strumenti Sviluppatore
+
+<CardGrid>
+  <LinkCard
+    icon="f5xc:distributed-apps"
+    title="VS Code Extension"
+    description="Gestisci le risorse F5 XC da VS Code con IntelliSense e assistente chat xcsh."
+    href="https://f5xc-salesdemos.github.io/vscode-f5xc-tools/"
+  />
+  <LinkCard
+    icon="f5xc:ai_assistant_logo"
+    title="xcsh CLI"
+    description="Shell potenziata da AI per le operazioni F5 Distributed Cloud."
+    href="https://f5xc-salesdemos.github.io/xcsh/"
+  />
+</CardGrid>
+
+## AI
+
+<CardGrid>
+  <LinkCard
+    icon="f5xc:ai_assistant_logo"
+    title="Marketplace"
+    description="Marketplace potenziato da AI per le soluzioni F5 Distributed Cloud."
+    href="https://f5xc-salesdemos.github.io/marketplace/"
+  />
+</CardGrid>
