@@ -1,0 +1,226 @@
+---
+title: F5 分布式云销售演示
+description: F5 分布式云销售工程的演示指南和运行手册。
+template: splash
+hero:
+  title: 销售演示
+  tagline: F5 分布式云销售工程的演示指南和运行手册。
+  image:
+    html: >-
+      <img src="/docs/images/hero-platform.svg" alt="F5 Distributed Cloud
+      platform" />
+i18n:
+  sourceHash: 9502e0988fe3
+  translator: machine
+---
+
+import { CardGrid } from '@astrojs/starlight/components';
+import LinkCard from '@f5xc-salesdemos/docs-theme/components/LinkCard.astro';
+
+## 安全解决方案
+
+<CardGrid>
+  <LinkCard
+    icon="f5xc:web-app-and-api-protection"
+    title="WAF"
+    description="Web 应用防火墙配置与策略。"
+    href="https://f5xc-salesdemos.github.io/waf/"
+  />
+  <LinkCard
+    icon="f5xc:web-app-and-api-protection"
+    title="API"
+    description="API 发现、保护与安全策略。"
+    href="https://f5xc-salesdemos.github.io/api-protection/"
+  />
+  <LinkCard
+    icon="f5xc:bot-defense"
+    title="高级 Bot 防护"
+    description="基于行为分析的高级 Bot 防护。"
+    href="https://f5xc-salesdemos.github.io/bot-advanced/"
+  />
+  <LinkCard
+    icon="f5xc:bot-defense"
+    title="标准 Bot 防护"
+    description="基于签名检测的标准 Bot 防护。"
+    href="https://f5xc-salesdemos.github.io/bot-standard/"
+  />
+  <LinkCard
+    icon="f5xc:client-side-defense"
+    title="CSD"
+    description="针对浏览器端威胁的客户端防护。"
+    href="https://f5xc-salesdemos.github.io/csd/"
+  />
+  <LinkCard
+    icon="f5xc:ddos-and-transit-services"
+    title="DDoS"
+    description="分布式拒绝服务攻击防护。"
+    href="https://f5xc-salesdemos.github.io/ddos/"
+  />
+  <LinkCard
+    icon="f5xc:web-app-scanning"
+    title="WAS"
+    description="Web 应用扫描与漏洞评估。"
+    href="https://f5xc-salesdemos.github.io/was/"
+  />
+</CardGrid>
+
+## 网络与性能
+
+<CardGrid>
+  <LinkCard
+    icon="f5xc:multi-cloud-network-connect"
+    title="MCN"
+    description="多云网络与站点连接。"
+    href="https://f5xc-salesdemos.github.io/mcn/"
+  />
+  <LinkCard
+    icon="f5xc:content-delivery-network"
+    title="CDN"
+    description="内容分发网络与边缘缓存。"
+    href="https://f5xc-salesdemos.github.io/cdn/"
+  />
+  <LinkCard
+    icon="f5xc:dns-management"
+    title="DNS"
+    description="DNS 管理、域区与负载均衡。"
+    href="https://f5xc-salesdemos.github.io/dns/"
+  />
+  <LinkCard
+    icon="f5xc:nginx-one"
+    title="NGINX"
+    description="NGINX 集成与配置管理。"
+    href="https://f5xc-salesdemos.github.io/nginx/"
+  />
+</CardGrid>
+
+## 演示资源
+
+<CardGrid>
+  <LinkCard
+    icon="f5xc:distributed-apps"
+    title="源站服务器"
+    description="基于 Ubuntu 24.04 的虚拟机，包含 9 个存在漏洞的 Web 应用，用于 WAF、API 和 Bot 防护测试。"
+    href="https://f5xc-salesdemos.github.io/origin-server/"
+  />
+  <LinkCard
+    icon="f5xc:application-traffic-insight"
+    title="流量生成器"
+    description="Azure 虚拟机，配备 50 多种安全工具和 7 套攻击套件，用于生成演示流量。"
+    href="https://f5xc-salesdemos.github.io/traffic-generator/"
+  />
+  <LinkCard
+    icon="f5xc:content-delivery-network"
+    title="CDN 模拟器"
+    description="基于 NGINX 的 CDN 边缘节点模拟器，支持 67 种以上厂商特定头部。"
+    href="https://f5xc-salesdemos.github.io/cdn-simulator/"
+  />
+  <LinkCard
+    icon="f5xc:platform"
+    title="查看所有组件"
+    description="浏览完整的演示资源目录。"
+    href="https://f5xc-salesdemos.github.io/demo-resources/"
+  />
+</CardGrid>
+
+## 运维
+
+<CardGrid>
+  <LinkCard
+    icon="f5xc:observability"
+    title="可观测性"
+    description="监控、指标与应用洞察。"
+    href="https://f5xc-salesdemos.github.io/observability/"
+  />
+  <LinkCard
+    icon="f5xc:administration"
+    title="管理"
+    description="租户管理、RBAC 与平台设置。"
+    href="https://f5xc-salesdemos.github.io/administration/"
+  />
+</CardGrid>
+
+## 自动化
+
+<CardGrid>
+  <LinkCard
+    icon="hashicorp-flight:terraform-color"
+    title="Terraform Provider"
+    description="适用于 F5 分布式云的 Terraform Provider。"
+    href="https://f5xc-salesdemos.github.io/terraform-provider-f5xc/"
+  />
+  <LinkCard
+    icon="f5xc:data-intelligence"
+    title="API 规范"
+    description="F5 分布式云的 OpenAPI 规范验证与协调。"
+    href="https://f5xc-salesdemos.github.io/api-specs/"
+  />
+  <LinkCard
+    icon="f5xc:data-intelligence"
+    title="增强版 API 规范"
+    description="F5 分布式云的增强版 OpenAPI 规范。"
+    href="https://f5xc-salesdemos.github.io/api-specs-enriched/"
+  />
+</CardGrid>
+
+## 平台与工具
+
+<CardGrid>
+  <LinkCard
+    icon="f5xc:doc"
+    title="构建器"
+    description="容器化的 Astro + Starlight 文档构建系统。"
+    href="https://f5xc-salesdemos.github.io/docs-builder/"
+  />
+  <LinkCard
+    icon="f5xc:shared-configuration"
+    title="主题"
+    description="文档站点的共享品牌与样式。"
+    href="https://f5xc-salesdemos.github.io/docs-theme/"
+  />
+  <LinkCard
+    icon="f5xc:distributed-apps"
+    title="图标"
+    description="文档构建系统的 NPM 图标包与插件。"
+    href="https://f5xc-salesdemos.github.io/docs-icons/"
+  />
+  <LinkCard
+    icon="f5xc:shared-configuration"
+    title="管控"
+    description="CI 工作流、治理模板与仓库设置管理。"
+    href="https://f5xc-salesdemos.github.io/docs-control/"
+  />
+  <LinkCard
+    icon="hashicorp-flight:docker-color"
+    title="开发容器"
+    description="集成 AI 编码工具的隔离开发环境。"
+    href="https://f5xc-salesdemos.github.io/devcontainer/"
+  />
+</CardGrid>
+
+## 开发者工具
+
+<CardGrid>
+  <LinkCard
+    icon="f5xc:distributed-apps"
+    title="VS Code 扩展"
+    description="在 VS Code 中管理 F5 XC 资源，支持 IntelliSense 和 xcsh 聊天助手。"
+    href="https://f5xc-salesdemos.github.io/vscode-f5xc-tools/"
+  />
+  <LinkCard
+    icon="f5xc:ai_assistant_logo"
+    title="xcsh CLI"
+    description="面向 F5 分布式云运维的 AI 驱动命令行工具。"
+    href="https://f5xc-salesdemos.github.io/xcsh/"
+  />
+</CardGrid>
+
+## AI
+
+<CardGrid>
+  <LinkCard
+    icon="f5xc:ai_assistant_logo"
+    title="市场"
+    description="面向 F5 分布式云解决方案的 AI 驱动市场。"
+    href="https://f5xc-salesdemos.github.io/marketplace/"
+  />
+</CardGrid>

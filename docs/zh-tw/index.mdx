@@ -1,0 +1,226 @@
+---
+title: F5 Distributed Cloud 銷售展示
+description: F5 Distributed Cloud 銷售工程的展示指南與操作手冊。
+template: splash
+hero:
+  title: 銷售展示
+  tagline: F5 Distributed Cloud 銷售工程的展示指南與操作手冊。
+  image:
+    html: >-
+      <img src="/docs/images/hero-platform.svg" alt="F5 Distributed Cloud
+      platform" />
+i18n:
+  sourceHash: 9502e0988fe3
+  translator: machine
+---
+
+import { CardGrid } from '@astrojs/starlight/components';
+import LinkCard from '@f5xc-salesdemos/docs-theme/components/LinkCard.astro';
+
+## 安全解決方案
+
+<CardGrid>
+  <LinkCard
+    icon="f5xc:web-app-and-api-protection"
+    title="WAF"
+    description="網頁應用程式防火牆組態與策略。"
+    href="https://f5xc-salesdemos.github.io/waf/"
+  />
+  <LinkCard
+    icon="f5xc:web-app-and-api-protection"
+    title="API"
+    description="API 探索、防護與安全策略。"
+    href="https://f5xc-salesdemos.github.io/api-protection/"
+  />
+  <LinkCard
+    icon="f5xc:bot-defense"
+    title="Bot 進階版"
+    description="具備行為分析的進階機器人防禦。"
+    href="https://f5xc-salesdemos.github.io/bot-advanced/"
+  />
+  <LinkCard
+    icon="f5xc:bot-defense"
+    title="Bot 標準版"
+    description="基於特徵碼偵測的標準機器人防禦。"
+    href="https://f5xc-salesdemos.github.io/bot-standard/"
+  />
+  <LinkCard
+    icon="f5xc:client-side-defense"
+    title="CSD"
+    description="針對瀏覽器端威脅的用戶端防禦。"
+    href="https://f5xc-salesdemos.github.io/csd/"
+  />
+  <LinkCard
+    icon="f5xc:ddos-and-transit-services"
+    title="DDoS"
+    description="分散式阻斷服務防護。"
+    href="https://f5xc-salesdemos.github.io/ddos/"
+  />
+  <LinkCard
+    icon="f5xc:web-app-scanning"
+    title="WAS"
+    description="網頁應用程式掃描與弱點評估。"
+    href="https://f5xc-salesdemos.github.io/was/"
+  />
+</CardGrid>
+
+## 網路與效能
+
+<CardGrid>
+  <LinkCard
+    icon="f5xc:multi-cloud-network-connect"
+    title="MCN"
+    description="多雲網路連線與站點連接。"
+    href="https://f5xc-salesdemos.github.io/mcn/"
+  />
+  <LinkCard
+    icon="f5xc:content-delivery-network"
+    title="CDN"
+    description="內容傳遞網路與邊緣快取。"
+    href="https://f5xc-salesdemos.github.io/cdn/"
+  />
+  <LinkCard
+    icon="f5xc:dns-management"
+    title="DNS"
+    description="DNS 管理、區域與負載平衡。"
+    href="https://f5xc-salesdemos.github.io/dns/"
+  />
+  <LinkCard
+    icon="f5xc:nginx-one"
+    title="NGINX"
+    description="NGINX 整合與組態管理。"
+    href="https://f5xc-salesdemos.github.io/nginx/"
+  />
+</CardGrid>
+
+## 展示資源
+
+<CardGrid>
+  <LinkCard
+    icon="f5xc:distributed-apps"
+    title="來源伺服器"
+    description="Ubuntu 24.04 虛擬機，包含 9 個具有弱點的網頁應用程式，用於 WAF、API 與機器人防禦測試。"
+    href="https://f5xc-salesdemos.github.io/origin-server/"
+  />
+  <LinkCard
+    icon="f5xc:application-traffic-insight"
+    title="流量產生器"
+    description="Azure 虛擬機，包含 50+ 種安全工具與 7 套攻擊套件，用於展示流量產生。"
+    href="https://f5xc-salesdemos.github.io/traffic-generator/"
+  />
+  <LinkCard
+    icon="f5xc:content-delivery-network"
+    title="CDN 模擬器"
+    description="基於 NGINX 的 CDN 邊緣節點模擬器，支援 67+ 種供應商專屬標頭。"
+    href="https://f5xc-salesdemos.github.io/cdn-simulator/"
+  />
+  <LinkCard
+    icon="f5xc:platform"
+    title="檢視所有元件"
+    description="瀏覽完整的展示資源目錄。"
+    href="https://f5xc-salesdemos.github.io/demo-resources/"
+  />
+</CardGrid>
+
+## 維運管理
+
+<CardGrid>
+  <LinkCard
+    icon="f5xc:observability"
+    title="可觀測性"
+    description="監控、指標與應用程式洞察。"
+    href="https://f5xc-salesdemos.github.io/observability/"
+  />
+  <LinkCard
+    icon="f5xc:administration"
+    title="管理"
+    description="租戶管理、RBAC 與平台設定。"
+    href="https://f5xc-salesdemos.github.io/administration/"
+  />
+</CardGrid>
+
+## 自動化
+
+<CardGrid>
+  <LinkCard
+    icon="hashicorp-flight:terraform-color"
+    title="Terraform Provider"
+    description="適用於 F5 Distributed Cloud 的 Terraform 提供者。"
+    href="https://f5xc-salesdemos.github.io/terraform-provider-f5xc/"
+  />
+  <LinkCard
+    icon="f5xc:data-intelligence"
+    title="API 規範"
+    description="F5 Distributed Cloud 的 OpenAPI 規範驗證與調和。"
+    href="https://f5xc-salesdemos.github.io/api-specs/"
+  />
+  <LinkCard
+    icon="f5xc:data-intelligence"
+    title="API 增強規範"
+    description="F5 Distributed Cloud 的增強 OpenAPI 規範。"
+    href="https://f5xc-salesdemos.github.io/api-specs-enriched/"
+  />
+</CardGrid>
+
+## 平台與工具
+
+<CardGrid>
+  <LinkCard
+    icon="f5xc:doc"
+    title="建構器"
+    description="容器化的 Astro + Starlight 文件建構系統。"
+    href="https://f5xc-salesdemos.github.io/docs-builder/"
+  />
+  <LinkCard
+    icon="f5xc:shared-configuration"
+    title="主題"
+    description="文件網站的共用品牌識別與樣式。"
+    href="https://f5xc-salesdemos.github.io/docs-theme/"
+  />
+  <LinkCard
+    icon="f5xc:distributed-apps"
+    title="圖示"
+    description="文件建構系統的 NPM 圖示套件與外掛。"
+    href="https://f5xc-salesdemos.github.io/docs-icons/"
+  />
+  <LinkCard
+    icon="f5xc:shared-configuration"
+    title="控制"
+    description="CI 工作流程、治理範本與儲存庫設定強制執行。"
+    href="https://f5xc-salesdemos.github.io/docs-control/"
+  />
+  <LinkCard
+    icon="hashicorp-flight:docker-color"
+    title="開發容器"
+    description="具備 AI 程式設計工具的隔離開發環境。"
+    href="https://f5xc-salesdemos.github.io/devcontainer/"
+  />
+</CardGrid>
+
+## 開發者工具
+
+<CardGrid>
+  <LinkCard
+    icon="f5xc:distributed-apps"
+    title="VS Code 擴充套件"
+    description="從 VS Code 管理 F5 XC 資源，具備 IntelliSense 與 xcsh 聊天助理。"
+    href="https://f5xc-salesdemos.github.io/vscode-f5xc-tools/"
+  />
+  <LinkCard
+    icon="f5xc:ai_assistant_logo"
+    title="xcsh CLI"
+    description="AI 驅動的 F5 Distributed Cloud 操作命令列工具。"
+    href="https://f5xc-salesdemos.github.io/xcsh/"
+  />
+</CardGrid>
+
+## AI
+
+<CardGrid>
+  <LinkCard
+    icon="f5xc:ai_assistant_logo"
+    title="市集"
+    description="AI 驅動的 F5 Distributed Cloud 解決方案市集。"
+    href="https://f5xc-salesdemos.github.io/marketplace/"
+  />
+</CardGrid>
