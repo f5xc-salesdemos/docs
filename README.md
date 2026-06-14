@@ -6,18 +6,10 @@
 
 Organization landing page for F5 Distributed Cloud documentation
 
+
 ## Documentation
 
 Full documentation is available at **[https://f5xc-salesdemos.github.io/docs/](https://f5xc-salesdemos.github.io/docs/)**.
-
-## Getting Started
-
-```bash
-git clone https://github.com/f5xc-salesdemos/docs.git
-```
-
-See the [documentation](https://f5xc-salesdemos.github.io/docs/) for detailed setup
-and usage guides.
 
 ## Contributing
 
