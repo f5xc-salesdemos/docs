@@ -172,5 +172,11 @@
     "url": "https://f5xc-salesdemos.github.io/demo-resources/llms.txt",
     "description": "Catalog of pre-configured Azure VM components for F5 XC demo environments",
     "category": "lab-infrastructure"
+  },
+  {
+    "label": "Console Catalog",
+    "url": "https://f5xc-salesdemos.github.io/console/llms.txt",
+    "description": "Schema-driven inventory of the F5 XC administration console UI — routes, resources, workflows, and browser automation manifests",
+    "category": "developer-tools"
   }
 ]
